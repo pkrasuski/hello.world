@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldApp", "HelloWorldApp\HelloWorldApp.csproj", "{D72E9F9F-1CA7-4829-B526-34A665E1B477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWAPI", "HWApi\HWAPI.csproj", "{B37BEB1F-8582-4E0F-A84B-0EFC9DE06BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryClient", "FactoryClient\FactoryClient.csproj", "{340899B5-0139-44C7-B5E2-7AEB9F9D0FF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D72E9F9F-1CA7-4829-B526-34A665E1B477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D72E9F9F-1CA7-4829-B526-34A665E1B477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D72E9F9F-1CA7-4829-B526-34A665E1B477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37BEB1F-8582-4E0F-A84B-0EFC9DE06BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37BEB1F-8582-4E0F-A84B-0EFC9DE06BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37BEB1F-8582-4E0F-A84B-0EFC9DE06BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37BEB1F-8582-4E0F-A84B-0EFC9DE06BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340899B5-0139-44C7-B5E2-7AEB9F9D0FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340899B5-0139-44C7-B5E2-7AEB9F9D0FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340899B5-0139-44C7-B5E2-7AEB9F9D0FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340899B5-0139-44C7-B5E2-7AEB9F9D0FF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

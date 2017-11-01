@@ -1,23 +1,24 @@
 ﻿using System;
-
-using System.Configuration;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FactoryClient;
- 
 
-
-namespace HelloWorldApp
+namespace HelloWorldProject
 {
-    class Program
+    [TestClass]
+    public class UnitTestHW
     {
-        static void Main(string[] args)
+        [TestMethod]
+        public void TestWrite()
         {
             try
             {
-                string sClientType = ConfigurationManager.AppSettings["ClientType"];
-                string sOutputString = ConfigurationManager.AppSettings["OutputString"];
+                string sClientType = "Console";
+                string sOutputString = "Hello World"; ;
                 var cli = Factory.Create(sClientType);
+                Assert.IsNotNull(cli);
                 cli.Write(sOutputString);
             }
+ 
             catch (Exception e)
             {
                 Console.Write("An error occurred: '{0}'", e);
